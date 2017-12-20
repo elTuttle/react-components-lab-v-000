@@ -30,7 +30,14 @@ class InFrontOfYou extends React.Component {
 }
 
 class ButcherShop extends React.Component {
-  
+  render () {
+    React.createElement('div', {className: butcher-shop}, [
+      React.createElement('p', {}, "Hello! We have the following products for sale today:"),
+      React.createElement('ul', {}, [
+        React.createElement('li', {}, BUTCHER_PRODUCTS[0] )
+      ])
+    ])
+  }
 }
 
 // Define these exported classes
