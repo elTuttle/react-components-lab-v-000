@@ -20,6 +20,19 @@ class OlderCoaster extends React.Component {
   }
 }
 
+class InFrontOfYou extends React.Component {
+  render () {
+    React.createElement('div', {}, [
+      React.createElement('p',{},"You shouldn't look too far."),
+      React.createElement('p',{},"Sometimes, the solution is right in front of you.")
+    ])
+  }
+}
+
+class ButcherShop extends React.Component {
+  
+}
+
 // Define these exported classes
 export class OlderCoaster extends React.Component {};
 export class InFrontOfYou extends React.Component {};
